@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import '../app/styles/about.css';
 
 const About = () => {
   return (
-    <div id='about' className='container pt-32'>
-     <h2 className='text-4xl md:text-5xl' data-aos="zoom-in-down">About Me</h2>
-     <p className='text-gray-500 pt-4' data-aos="zoom-in-down">
+    <div id='about' className='about-container'>
+     <h2 className='about-heading' data-aos="zoom-in-down">About Me</h2>
+     <p className='about-text' data-aos="zoom-in-down">
       I am a student ai GIAIC, pursuring a course in Artificial Intelligience, Web 3.0, & Metaverse.
       Passionate about technology and constanty learning new skills to stay up-to-date with the latest innovations.
       </p>
@@ -12,4 +13,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;
